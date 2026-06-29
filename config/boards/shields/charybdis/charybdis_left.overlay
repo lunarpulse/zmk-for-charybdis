@@ -13,16 +13,12 @@
 		, <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&gpio1 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		, <&gpio1 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+
 		;
 };
-&left_encoder_1 {
-    status = "okay";
-};
-&left_encoder_2 {
-    status = "okay";
-};
+
 //RGB bus
+
 &pinctrl {
     spi3_default: spi3_default {
         group1 {
@@ -62,4 +58,3 @@
                          LED_COLOR_ID_BLUE>;
     };
 };
-
