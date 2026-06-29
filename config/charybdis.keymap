@@ -102,13 +102,13 @@
 &kp TAB           &kp Q           &kp W       &kp E               &kp R             &kp T        &kp Y      &kp U              &kp I                &kp O       &kp P          &kp BSLH
 &kp LEFT_SHIFT    &mt LEFT_ALT A  &mt LALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G        &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RALT L  &mt RGUI SEMI  &kp SQT
 &kp LEFT_CONTROL  &kp Z           &kp X       &kp C               &kp V             &kp B        &kp N      &kp M              &kp COMMA            &kp PERIOD  &kp FSLH       &kp EQUAL
-                                              &kp DEL             &kp SPACE         &lt 1 TAB    &lt 2 ESC  &kp BACKSPACE
-                                                                  &mkp MB1          &mkp MB2     &kp ENTER
+                                              &kp DEL             &kp SPACE         &lt 1 TAB    &kp ENTER  &kp BACKSPACE
+                                                                  &mkp MB1          &mkp MB2     &lt 2 ESC
             >;
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
