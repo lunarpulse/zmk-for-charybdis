@@ -15,6 +15,10 @@
     flavor = "balanced";
     quick-tap-ms = <150>;
 };
+&mt {
+    tapping-term-ms = <350>;
+    flavor = "tap-preferred";
+};
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
