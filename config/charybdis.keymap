@@ -42,10 +42,10 @@
 
         layer_0 {
             bindings = <
-&lt 3 Q     &kp W       &kp E               &kp R         &kp T          &kp Y        &kp U          &kp I                &kp O       &kp P
-&mt LGUI A  &mt LALT S  &mt LEFT_CONTROL D  &mt LSHIFT F  &kp G          &kp H        &mt RSHIFT J   &mt RIGHT_CONTROL K  &mt RALT L  &mt RGUI SEMICOLON
-&kp Z       &kp X       &kp C               &kp V         &kp B          &kp N        &kp M          &kp COMMA            &kp DOT     &kp FSLH
-                        &mkp MB1            &mkp MB2      &lt 1 SPACE    &lt 2 ENTER  &kp BACKSPACE
+&lt 3 Q     &kp W       &kp E               &kp R         &kp T          &kp Y      &kp U          &kp I                &kp O       &kp P
+&mt LGUI A  &mt LALT S  &mt LEFT_CONTROL D  &mt LSHIFT F  &kp G          &kp H      &mt RSHIFT J   &mt RIGHT_CONTROL K  &mt RALT L  &mt RGUI SEMICOLON
+&kp Z       &kp X       &kp C               &kp V         &kp B          &kp N      &kp M          &kp COMMA            &kp DOT     &kp FSLH
+                        &mkp MB1            &mkp MB2      &lt 1 SPACE    &kp ENTER  &kp BACKSPACE
             >;
         };
 
@@ -54,7 +54,7 @@
 &kp TAB       &none     &kp UP    &none      &none                   &none                  &kp HOME  &kp PG_UP  &kp MINUS         &kp EQUAL
 &kp CAPSLOCK  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp END   &kp PG_DN  &kp SINGLE_QUOTE  &kp BACKSLASH
 &kp LSHIFT    &none     &none     &none      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &none     &kp INS    &none             &kp RSHIFT
-                        &none     &none      &none                   &kp ESC                &none
+                        &none     &none      &none                   &lt 2 ESCAPE           &none
             >;
         };
 
