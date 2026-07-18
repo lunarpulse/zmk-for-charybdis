@@ -108,7 +108,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -116,12 +116,12 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR_ALL  &none  &none     &none         &none            &none    &none  &none  &none  &none  &none  &none
-&bt BT_CLR      &none  &none     &kp UP        &none            &none    &none  &none  &none  &none  &none  &none
-&bt BT_NXT      &none  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &none    &none  &none  &none  &none  &none  &none
-&bt BT_PRV      &none  &none     &none         &none            &none    &none  &none  &none  &none  &none  &none
-                                 &kp LEFT_ALT  &kp LEFT_GUI     &none    &none  &none
-                                               &none            &none    &none
+&bt BT_CLR_ALL  &none  &none     &none     &none            &none       &none   &none   &none  &none  &none  &none
+&bt BT_CLR      &none  &none     &kp UP    &none            &none       &none   &none   &none  &none  &none  &none
+&bt BT_NXT      &none  &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &none       &none   &none   &none  &none  &none  &none
+&bt BT_PRV      &none  &none     &none     &none            &none       &none   &none   &none  &none  &none  &none
+                                 &trans    &trans           &none       &trans  &trans
+                                           &mkp MB1         &mkp MB2    &trans
             >;
         };
 
@@ -130,9 +130,9 @@
 &kp F1          &kp F2          &kp F3   &kp F4    &kp F5     &kp F6                  &kp F7                 &kp F8           &kp F9           &kp F10          &kp F11        &kp F12
 &kp CAPS        &kp KP_NUMLOCK  &none    &none     &none      &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE  &kp KP_SUBTRACT
 &kp LEFT_SHIFT  &none           &kp INS  &kp HOME  &kp PG_UP  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK   &kp KP_PLUS
-&kp LCTRL       &none           &kp DEL  &kp END   &kp PG_DN  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT     &kp KP_ENTER
-                                         &trans    &trans     &trans                  &trans                 &kp KP_NUMBER_0
-                                                   &mkp MB1   &mkp MB2                &kp ENTER
+&kp LCTRL       &kp LEFT_ALT    &kp DEL  &kp END   &kp PG_DN  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT     &kp KP_ENTER
+                                         &trans    &trans     &trans                  &none                  &kp KP_NUMBER_0
+                                                   &mkp MB1   &mkp MB2                &trans
             >;
         };
 
